@@ -184,7 +184,7 @@ const Main = (props) => {
                     
                     
                       <img src="/images/like-icon.svg " />
-                      <span style={{ color: "#404040" }}>>Like</span>
+                      <span style={{ color: "#404040" }}>Like</span>
                     </button>
                     <button style={{ background: "none", border: "none" }}>
                       <img src="/images/comment-icon.svg" alt="" />
