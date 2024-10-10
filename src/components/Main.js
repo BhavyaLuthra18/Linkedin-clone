@@ -179,23 +179,24 @@ const Main = (props) => {
                     onClick={(event) => {
                       likeHandler(event, key, ids[key]);
                     }}
+                      style={{ background: "none", border: "none" }}
                   >
                     
                     
                       <img src="/images/like-icon.svg " />
-                      <span>Like</span>
+                      <span style={{ color: "#404040" }}>>Like</span>
                     </button>
-                    <button>
+                    <button style={{ background: "none", border: "none" }}>
                       <img src="/images/comment-icon.svg" alt="" />
-                      <span>Comments</span>
+                      <span style={{ color: "#404040" }}>Comments</span>
                     </button>
-                    <button>
+                    <button style={{ background: "none", border: "none" }}>
                       <img src="/images/share-icon.svg" alt="" />
-                      <span>Share</span>
+                      <span style={{ color: "#404040" }}>Share</span>
                     </button>
-                    <button>
+                    <button style={{ background: "none", border: "none" }}>
                       <img src="/images/send-icon.svg" alt="" />
-                      <span>Send</span>
+                      <span style={{ color: "#404040" }}>Send</span>
                     </button>
                   </SocialActions>
                 </Article>
