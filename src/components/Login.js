@@ -58,7 +58,7 @@ const Nav = styled.nav`
 
 const Join = styled.a`
   font-size: 16px;
-  padding: 10px 12px;
+  padding: 10px;
   text-decoration: none;
   border-radius: 4px;
   color: rgba(0, 0, 0, 0.6);
@@ -78,7 +78,7 @@ transition-duration:167ms;
 font-size:16px;
 font-weight:600;
 line-height:40px;
-padding:10px 24px;
+padding:8px;
 text-align:center;
 background-color: rgba(0,0,0,0);
 &:hover{
