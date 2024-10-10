@@ -242,6 +242,8 @@ const AssetButton = styled.button`
   height: 40px;
   min-width: auto;
   color: rgba(0, 0, 0, 0.5);
+  background: none;
+  border: none;
 `;
 
 const AttachAssets = styled.div`
