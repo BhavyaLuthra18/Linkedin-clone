@@ -62,7 +62,9 @@ const PostModal = (props) => {
           <Content>
             <Header>
               <h2>Create a post</h2>
-              <button onClick={(event) => reset(event)}>
+              <button onClick={(event) => reset(event)}  
+              style={{ background: "none", border: "none" }}
+               >
                 <img src="/images/close-icon.svg" alt="" />
               </button>
             </Header>
