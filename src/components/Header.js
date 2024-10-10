@@ -119,7 +119,13 @@ const Content = styled.div`
 
 const Logo = styled.span`
   margin-right: 8px;
-  font-size: 0px;
+ img {
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 const Search = styled.div`
